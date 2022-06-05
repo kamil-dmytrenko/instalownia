@@ -1,0 +1,85 @@
+@use "sass:math";
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@324&display=swap');
+//mixins
+@import "mixins/breakpoints";
+@import "mixins/colors";
+//hamburger
+$hamburger-size: 5rem;
+$hamburger-thickness: 4px;
+@import "~delicious-hamburgers/scss/base";
+@import "~delicious-hamburgers/scss/animations/criss-cross";
+//components
+@import "components/brand/brand";
+@import "components/navbar/navbar";
+//@import "components/footer/footer";
+//sections
+
+@function strip-unit($value) {
+  @return math.div($value, $value * 0 + 1);
+}
+
+@mixin fluid-type($min-vw, $max-vw, $min-font-size, $max-font-size) {
+  $u1: unit($min-vw);
+  $u2: unit($max-vw);
+  $u3: unit($min-font-size);
+  $u4: unit($max-font-size);
+
+  @if $u1 == $u2 and $u1 == $u3 and $u1 == $u4 {
+    & {
+      font-size: $min-font-size;
+      @media screen and (min-width: $min-vw) {
+        font-size: calc(#{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}));
+      }
+      @media screen and (min-width: $max-vw) {
+        font-size: $max-font-size;
+      }
+    }
+  }
+}
+
+$min_width: 320px;
+$max_width: 1440px;
+$min_font: 16px;
+$max_font: 22px;
+
+$mod_1: 1.2; // mobile
+$mod_2: 1.4; // desktop
+
+h1 {
+  font-size: $mod_1*$mod_1*$mod_1*$mod_1 *1rem;
+  @include fluid-type($min_width, $max_width, $mod_1*$mod_1*$mod_1 *$min_font, $mod_2*$mod_2*$mod_2 *$min_font);
+}
+h2 {
+  font-size: $mod_1*$mod_1*$mod_1 *1rem;
+  @include fluid-type($min_width, $max_width, $mod_1*$mod_1*$mod_1 *$min_font, $mod_2*$mod_2*$mod_2 *$min_font);
+}
+h3 {
+  font-size: $mod_1*$mod_1 *1rem;
+  @include fluid-type($min_width, $max_width, $mod_1*$mod_1 *$min_font, $mod_2*$mod_2 *$min_font);
+}
+
+p {
+  font-size: $mod_1 *1rem;
+  @include fluid-type($min_width, $max_width, $mod_1 *$min_font, $mod_2 *$min_font);
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  @include for-tablet-portrait-up {
+    padding: 0 4rem;
+  }
+}
+
+  html, body {
+    .mobile-menu .open {
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 31 30"><desc>Made with illustrio</desc>
+
+<g class="shifted" transform="matrix(1,0,0,1,1.5,1.5)"><g fill="none" fill-rule="evenodd" stroke="none" style="fill-opacity: 0.7;" class="secondary-fill">
+
+    <path fill="none" d="M28.411,17.378 L25.607,20.366 C24.83,21.186 23.576,21.186 22.802,20.366 L14.99,12.047 L7.182,20.366 C6.405,21.186 5.155,21.186 4.376,20.366 L1.574,17.378 C0.799,16.554 0.799,15.218 1.574,14.394 L13.592,1.598 C14.365,0.774 15.619,0.774 16.392,1.598 L28.411,14.393 C29.181,15.218 29.181,16.554 28.411,17.378 Z" stroke="none" style="fill-opacity: 0.7;" class="secondary-fill"></path>
+  </g></g><g class="base"><g fill="none" fill-rule="evenodd" stroke="none" class="main-stroke">
+
+    <path fill="none" d="M28.411,17.378 L25.607,20.366 C24.83,21.186 23.576,21.186 22.802,20.366 L14.99,12.047 L7.182,20.366 C6.405,21.186 5.155,21.186 4.376,20.366 L1.574,17.378 C0.799,16.554 0.799,15.218 1.574,14.394 L13.592,1.598 C14.365,0.774 15.619,0.774 16.392,1.598 L28.411,14.393 C29.181,15.218 29.181,16.554 28.411,17.378 Z" stroke="none" class="main-stroke"></path>
+  </g></g><style>
+          .main-fill {fill: #030000;}
+          .main-stroke {stroke: #030000;}
+          .secondary-fill {fill: #96a0a1;}
+          .secondary-stroke {stroke: #96a0a1;}
+
+          .main-fill--darken {fill: #000000;}
+          .main-stroke--darken {stroke: #000000;}
+          .secondary-fill--darken {fill: #6f7b7c;}
+          .secondary-stroke--darken {stroke: #6f7b7c;}
+
+          .main-fill--darkener {fill: #000000;}
+          .main-stroke--darkener {stroke: #000000;}
+          .secondary-fill--darkener {fill: #576061;}
+          .secondary-stroke--darkener {stroke: #576061;}
+        </style></svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70" style="width: 100%; height: 100%;"><desc>Made with illustrio</desc>
+
+<defs fill="none" stroke="none"><mask id="maskSivxlpqrnuov"><rect x="35" y="0" width="35" height="70" rx="0" ry="0" fill="#ffffff"></rect></mask></defs><g class="content"><g class="base"><g fill="none" fill-rule="evenodd" stroke="none" class="main-fill">
+
+    <path fill="none" d="M5.355,11.6025 C7.4375,15.7675 11.0075,19.18875 15.1725,21.42 L18.445,18.1475 C18.8911917,17.7013083 19.48625,17.5525583 19.9325,17.85 C21.56875,18.445 23.3536917,18.7425 25.2875,18.7425 C26.18,18.7425 26.775,19.3375 26.775,20.23 L26.775,25.2875 C26.775,26.18 26.18,26.775 25.2875,26.775 C11.305,26.775 0,15.47 0,1.4875 C0,0.595 0.595,0 1.4875,0 L6.69375,0 C7.58625,0 8.18125,0.595 8.18125,1.4875 C8.18125,3.2725 8.47875,5.0575 9.07375,6.8425 C9.2225,7.28875 9.07375,7.88375 8.77625,8.33 L5.355,11.6025 L5.355,11.6025 Z" transform="translate(21.583 21.583)" stroke="none" class="main-fill"></path>
+  </g></g><g class="masked" mask="url('#maskSivxlpqrnuov')"><g fill="none" fill-rule="evenodd" stroke="none" class="main-fill--darken">
+
+    <path fill="none" d="M5.355,11.6025 C7.4375,15.7675 11.0075,19.18875 15.1725,21.42 L18.445,18.1475 C18.8911917,17.7013083 19.48625,17.5525583 19.9325,17.85 C21.56875,18.445 23.3536917,18.7425 25.2875,18.7425 C26.18,18.7425 26.775,19.3375 26.775,20.23 L26.775,25.2875 C26.775,26.18 26.18,26.775 25.2875,26.775 C11.305,26.775 0,15.47 0,1.4875 C0,0.595 0.595,0 1.4875,0 L6.69375,0 C7.58625,0 8.18125,0.595 8.18125,1.4875 C8.18125,3.2725 8.47875,5.0575 9.07375,6.8425 C9.2225,7.28875 9.07375,7.88375 8.77625,8.33 L5.355,11.6025 L5.355,11.6025 Z" transform="translate(21.583 21.583)" stroke="none" class="main-fill--darken"></path>
+  </g></g></g><style>
+          .main-fill {fill: #000000;}
+          .main-stroke {stroke: #000000;}
+          .secondary-fill {fill: #000000;}
+          .secondary-stroke {stroke: #000000;}
+
+          .main-fill--darken {fill: #000000;}
+          .main-stroke--darken {stroke: #000000;}
+          .secondary-fill--darken {fill: #000000;}
+          .secondary-stroke--darken {stroke: #000000;}
+
+          .main-fill--darkener {fill: #000000;}
+          .main-stroke--darkener {stroke: #000000;}
+          .secondary-fill--darkener {fill: #000000;}
+          .secondary-stroke--darkener {stroke: #000000;}
+        </style></svg>

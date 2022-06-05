@@ -1,0 +1,12 @@
+@import "../../public/styles/mixins/breakpoints";
+
+.brand-image {
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+  min-width: 4rem;
+  max-width: 5rem;
+  @include for-desktop-up {
+    max-width: 5rem;
+  }
+}
