@@ -39,7 +39,7 @@ const Footer = () => {
         </FooterContactItem>
         <FooterContactItem>
           <img src={MailIcon} alt="mail icon" />
-          <FooterNavigationLink href="mailto:biuro@instalownia.pl">biuro@instalownia.pl</FooterNavigationLink>
+          <FooterNavigationLink href="mailto:biuro@instalownia.pl">oleksiy@wp.pl</FooterNavigationLink>
         </FooterContactItem>
       </FooterContactInfo>
 
